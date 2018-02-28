@@ -1,0 +1,21 @@
+#bg{
+    
+    background: linear-gradient(0deg, rgba(2,173,231,0.5), rgba(2,173,231,0.5)),url("../../assets/img/construction.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+    
+    /* filter:brightness(0.8); */
+
+}
+#logo{
+    position: absolute;
+    top:10%;
+}
+#small-nav{
+    background-color: rgba(0, 0, 0, 0.692);
+    height: 65px;
+}
+#main-row{
+    margin-top: 200px;
+}

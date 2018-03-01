@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=Tauri');
 
 footer{
-    background-color: #202020;
-    height: 80px;
-    font-family: 'Varela Round', sans-serif;
+    background-color:#2d3345;
+    padding:30px;
+    font-family: 'Tauri', sans-serif;
+}
+footer img{
+ width: 40% !important;
+
 }

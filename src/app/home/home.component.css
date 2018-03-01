@@ -1,17 +1,16 @@
-
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
- section{
+@import url('https://fonts.googleapis.com/css?family=Tauri');
+ 
+section{
     font-family: 'Varela Round', sans-serif;
-    
+    font-family: 'Tauri', sans-serif;
  }
- .cont{
-     padding: 0 30px;
- }
-#bg{
+
+#home{
     background: linear-gradient(0deg, rgba(2, 174, 231, 0.705), rgba(2,173,231,0.5)),url("../../assets/img/construction.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 700px;
+    padding: 155px 30px 90px 30px;
     background-blend-mode: multiply;
 }
 .filter {
@@ -19,40 +18,34 @@
     backdrop-filter: blur(10px); /* Chrome and Opera */
     background-color: rgba(255, 255, 255, 0.3);
 }
-#logo{
-    position: absolute;
-    top: 2%;
-    left: 2%;
-   
-}
+
 #logo img {
      width: 80%;
      drop-shadow:8px 8px 3px rgba(68, 209, 13, 0.5);
 }
-
-#small-nav{
-    background-color: rgba(0, 0, 0, 0.692);
-    height: 65px;
-}
-#small-nav p{
-    margin:0 30px 0 0;
-}
-.m-row{
-    margin-top:100px;
-   
-}
-
-.m-row img{
+#productos img{
     drop-shadow:(8px 8px 3px rgba(0,0,0,.5));
     height: 194px;
 }
 
+.formulario .form-title{
+   
+    color:#2d3345!important;
+   }
 
-#formulario input,textarea{
-    background-color:rgba(0, 0, 0, 0.41);
-    color:#fff;
-    border:1px solid #0762bd !important;
+.formulario button{
+   
+ background-color:#2d3345!important;
 }
-#formulario textarea:focus{
-    background-color: rgba(0, 0, 0, 0.41);
+
+#productos{
+    padding: 40px 0;
+    background-color: #f9f9f9;
+   
+}
+#productos h1,h3{
+    color:#2d3345!important;
+}
+.hr{
+    border-color: rgba(255,255,255,0.15)
 }

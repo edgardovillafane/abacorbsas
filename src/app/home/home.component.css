@@ -2,37 +2,57 @@
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
  section{
     font-family: 'Varela Round', sans-serif;
-  
- 
+    
+ }
+ .cont{
+     padding: 0 30px;
  }
 #bg{
-    
-    background: linear-gradient(0deg, rgba(2,173,231,0.5), rgba(2,173,231,0.5)),url("../../assets/img/construction.jpg");
+    background: linear-gradient(0deg, rgba(2, 174, 231, 0.705), rgba(2,173,231,0.5)),url("../../assets/img/construction.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 700px;
-    
-    filter:brightness("../../assets/img/construction.jpg",0.8);
-
+    background-blend-mode: multiply;
+}
+.filter {
+    -webkit-backdrop-filter: blur(10px); /* Safari 9+ */
+    backdrop-filter: blur(10px); /* Chrome and Opera */
+    background-color: rgba(255, 255, 255, 0.3);
 }
 #logo{
     position: absolute;
     top: 2%;
     left: 2%;
-    /* box-shadow: 5px 5px 5px #fff;  */
+   
 }
+#logo img {
+     width: 80%;
+     drop-shadow:8px 8px 3px rgba(68, 209, 13, 0.5);
+}
+
 #small-nav{
     background-color: rgba(0, 0, 0, 0.692);
     height: 65px;
+}
+#small-nav p{
+    margin:0 30px 0 0;
 }
 .m-row{
     margin-top:100px;
    
 }
+
 .m-row img{
-    /* box-shadow: 5px 5px 5px #fff; */
-}
-#formulario{
- 
+    drop-shadow:(8px 8px 3px rgba(0,0,0,.5));
+    height: 194px;
 }
 
+
+#formulario input,textarea{
+    background-color:rgba(0, 0, 0, 0.41);
+    color:#fff;
+    border:1px solid #0762bd !important;
+}
+#formulario textarea:focus{
+    background-color: rgba(0, 0, 0, 0.41);
+}

@@ -17,11 +17,6 @@ export class NavbarComponent implements OnInit {
   ngOnInit() {
    
  
-//   @HostListener('scroll', ['$event'])
-//   onScroll(event) {
-//     $('.navbar').css('background-color','blue');
-//   }
-// }
 
  }
 }

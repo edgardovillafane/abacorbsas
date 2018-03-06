@@ -1,11 +1,10 @@
-
-  <div class="row">
-<p>
+<div class="row">
+  <p>
     {{prodSelected.id}}
   </p>
   <p>{{prodSelected.detalle}}</p>
   <div class="col-md-3">
-     <img src="{{prodSelected.imagen}}" class="img-fluid " alt="">
+    <img src="{{prodSelected.imagen}}" class="img-fluid " alt="">
   </div>
- 
-  </div>
+  <a class="nav-link btn" [routerLink]="['/home']" >Volver</a>
+</div>

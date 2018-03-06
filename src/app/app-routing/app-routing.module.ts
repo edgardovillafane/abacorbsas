@@ -11,6 +11,7 @@ import { ComoLlegarComponent } from '../como-llegar/como-llegar.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: 'home', component: HomeComponent },
   { path: 'productos', component: ProductosComponent },
   { path: 'detalle-productos/:prodId', component: DetalleProductosComponent },
   { path: 'beneficios', component: BeneficiosComponent },

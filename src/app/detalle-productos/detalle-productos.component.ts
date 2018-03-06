@@ -24,6 +24,7 @@ export class DetalleProductosComponent implements OnInit {
       {id:8 ,detalle:'Alta durabilidad',imagen:"/assets/img/mortero.png"}
     ]
    }
+ 
 
   ngOnInit() {
     this.ruta.params.subscribe(params=>{
@@ -39,5 +40,6 @@ export class DetalleProductosComponent implements OnInit {
   findRevest(){
     return this.detail_prod.filter(this.filtroPorId,this.prodId)[0];
   }
+  
 
 }

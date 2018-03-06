@@ -1,0 +1,10 @@
+<section>
+  <div class="row">
+    <div *ngFor="let producto of productos" [class.selected]="producto === selectedProduct" (click)="onSelect(_prod)" class="nav-link">
+
+      <a class="nav-link" [routerLink]="['/detalles' , producto.id]">{{producto.nombre}}</a>
+      <span class="badge">{{producto.id}}</span> {{producto.id}}
+    </div>
+
+  </div>
+</section>

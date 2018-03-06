@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit ,Input } from '@angular/core';
 import { HostListener} from "@angular/core";
 declare var jQuery:any;
 declare var $:any;
@@ -11,7 +11,7 @@ declare var $:any;
 export class NavbarComponent implements OnInit {
 
   
-
+  @Input() isScrolled = true; 
   constructor() { }
 
   ngOnInit() {

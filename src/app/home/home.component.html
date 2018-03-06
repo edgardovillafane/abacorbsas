@@ -58,39 +58,13 @@
   <div class="container">
     <h1 class="h1 text-center mb-5">Nuestros productos</h1>
     <div class="row d-flex justify-content-center">
-      <div class="col-md-2 mx-3 mb-3">
-        <img src="././assets/img/membranacement.png" class="img-fluid d-flex mx-auto" alt="">
-        <h3 class="text-center mt-3">Membrana Cementícia</h3>
+      <div *ngFor="let producto of productos" [class.selected]="producto === selectedProduct" (click)="onSelect(_prod)" class="col-md-2 mx-3 mb-3">
+        <img src="{{producto.imagen}}" class="img-fluid d-flex mx-auto" alt="">
+        <h3 class="text-center mt-3">{{producto.nombre}}</h3>
+        <a class="nav-link" [routerLink]="['/detalle-productos' , producto.id]">Ver detalle</a>
       </div>
-      <div class="col-md-2 mx-3 mb-3">
-        <img src="././assets/img/impermeable.png" class="img-fluid d-flex mx-auto" alt="">
-        <h3 class="text-center mt-3">Abamix Impermeable</h3>
-      </div>
-      <div class="col-md-2 mx-3 mb-3">
-        <img src="././assets/img/multifunc.png" class="img-fluid d-flex mx-auto" alt="">
-        <h3 class="text-center mt-3">Abaplak Multifunción</h3>
-      </div>
-      <div class="col-md-2 mx-3 mb-3">
-        <img src="././assets/img/pastina.png" class="img-fluid d-flex mx-auto" alt="">
-        <h3 class="text-center mt-3">Pastina Impermeable</h3>
-      </div>
-      <div class="col-md-2 mx-3 mb-3">
-        <img src="././assets/img/premium.png" class="img-fluid d-flex mx-auto" alt="">
-        <h3 class="text-center mt-3">Abamix Premium</h3>
-      </div>
-      <div class="col-md-2 mx-3 mb-3">
-          <img src="././assets/img/stukor.png" class="img-fluid d-flex mx-auto" alt="">
-          <h3 class="text-center mt-3">Stuko Abacor</h3>
-        </div>
-        <div class="col-md-2 mx-3 mb-3">
-            <img src="././assets/img/yeso.png" class="img-fluid d-flex mx-auto" alt="">
-            <h3 class="text-center mt-3">Revoque fino al Yeso</h3>
-          </div>
-          <div class="col-md-2 mx-3 mb-3">
-              <img src="././assets/img/mortero.png" class="img-fluid d-flex mx-auto" alt="">
-              <h3 class="text-center mt-3">Mortero Base Coat</h3>
-            </div>
-      
     </div>
   </div>
+ 
 </section>
+

@@ -1,9 +1,9 @@
 
-nav{
+/* nav{
     background-color: rgba(0, 0, 0, 0.1) !important;
     min-height: 80px;
-}
-
+    
+} */
 nav .navbar-nav li{
     font-size: 1.03rem;
     border:1px solid transparent!important;
@@ -32,14 +32,15 @@ nav .navbar-nav ul li a:hover {
 .border-left{
     border-left:1px solid rgba(255, 255, 255, 0.363);
 }
-#logo{
+.logo{
 position: absolute;
  top: 2%;
 left: 2%;
 }
-#logo img{
-  width:45%;
-}
+
+
+
+
 
 @media screen and (max-width:425px) {
     #navbarSupportedContent ul li,div {

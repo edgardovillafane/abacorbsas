@@ -8,15 +8,17 @@ import { DetalleProductosComponent } from '../detalle-productos/detalle-producto
 import { BeneficiosComponent } from '../beneficios/beneficios.component';
 import { DetalleBeneficiosComponent } from '../detalle-beneficios/detalle-beneficios.component';
 import { ComoLlegarComponent } from '../como-llegar/como-llegar.component';
+import { ContactoComponent } from '../contacto/contacto.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'productos', component: ProductosComponent },
   { path: 'detalle-productos/:prodId', component: DetalleProductosComponent },
   { path: 'beneficios', component: BeneficiosComponent },
-  { path: 'detalle-beneficios/:id', component: DetalleBeneficiosComponent },
-  { path: 'como-llegar/', component: ComoLlegarComponent }
+  { path: 'detalle-beneficios/:benefId', component: DetalleBeneficiosComponent },
+  { path: 'como-llegar', component: ComoLlegarComponent },
+  { path: 'contacto', component: ContactoComponent }
 ];
 
 @NgModule({

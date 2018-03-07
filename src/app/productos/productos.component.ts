@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {Productos} from '../productos-class';
+import {PRODUCTOS} from '../mock-productos';
 
 @Component({
   selector: 'app-productos',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductosComponent implements OnInit {
 
+  productos = PRODUCTOS; //aquí asignamos a la variable 'products'el mock externo llamado 'PRODUCTOS'
+  selectedProduct: Productos; //Productos -> nombre de la clase
+
   constructor() { }
 
   ngOnInit() {
   }
+
+  onSelect(prod: Productos): void {
+   // alert('hola' + prod.id );
+    this.selectedProduct = prod;
+   }
 
 }

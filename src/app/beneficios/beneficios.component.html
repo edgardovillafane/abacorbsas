@@ -1,3 +1,18 @@
-<p>
-  beneficios works!
-</p>
+<section id="beneficios padding-main">
+    <div class="container">
+      <h1 class="h1 text-center mb-5">Beneficios</h1>
+      <div class="row d-flex justify-content-center">
+        <div *ngFor="let beneficio of beneficios" [class.selected]="beneficio === selectedFenefic" (click)="onSelect(_benef)" class="col-md-2 mx-3 mb-3">
+          <a class="nav-link" [routerLink]="['/detalle-beneficios',beneficio.id]" >
+            <img src="{{beneficio.imagen}}" class="img-fluid d-flex mx-auto" alt="">
+          <h3 class="text-center mt-3">{{beneficio.nombre}}</h3>
+        </a>
+        </div>
+        
+      </div>
+      
+    </div>
+  <div class="col-md-12 bg-danger">
+          <h2>SEA DISTRIBUIDOR</h2>
+        </div>
+  </section>

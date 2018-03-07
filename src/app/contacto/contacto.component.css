@@ -1,0 +1,59 @@
+.padding-main{
+    padding: 80px 100px 150px;
+    border-top: solid 20px #444444;
+    border-bottom: solid 20px #444444;
+}
+.banner{
+   min-height: 70px;
+   overflow: hidden;
+}
+
+.bg-color{
+    background: linear-gradient(#ff6a00b5,#555658f2);
+}
+.title-large{
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom:90px;
+}
+.title-small{
+    font-size: 24px;
+}
+.img-detalle{
+    outline:#fff 3px solid; outline-offset: 8px;
+}
+.formulario .form-title{
+   
+    color:#2d3345!important;
+   }
+
+.formulario button{
+   
+ background-color:#2d3345!important;
+}
+
+#productos{
+    padding: 100px 0;
+    background-color: #f9f9f9;
+   
+}
+#productos h1,h3{
+    color:#2d3345!important;
+}
+#productos h1{
+    font-size: 3.5rem!important;
+    font-weight: 700;
+}
+#productos h3{
+   font-size: 1.4rem!important;
+   font-weight: bold;
+}
+.hr{
+    border-color: rgba(255,255,255,0.15)
+}
+@media screen and (max-width:425px) {
+    form h2 {
+       font-size: 2rem;
+    }
+}

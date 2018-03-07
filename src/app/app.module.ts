@@ -8,7 +8,6 @@ import { AppRoutingModule } from  './app-routing/app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { ProductosComponent } from './productos/productos.component';
 import { DetalleProductosComponent } from './detalle-productos/detalle-productos.component';
 import { BeneficiosComponent } from './beneficios/beneficios.component';
 import { ComoLlegarComponent } from './como-llegar/como-llegar.component';
@@ -22,7 +21,6 @@ import { ContactoComponent } from './contacto/contacto.component';
     HomeComponent,
     FooterComponent,
     NavbarComponent,
-    ProductosComponent,
     DetalleProductosComponent,
     BeneficiosComponent,
     ComoLlegarComponent,

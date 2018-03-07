@@ -1,3 +1,31 @@
+.bg-color{
+    background: linear-gradient(#abababb0,#1926c3e0);
+    font-family: 'PT Sans', sans-serif;
+}
+
 .padding-main{
-    padding: 150px 0;
+    padding: 80px 100px;
+    border-top: solid 20px #ffffff;
+    border-bottom: solid 20px #ffffff;
+}
+.padding-main p{
+   font-size: 2rem;
+}
+.banner{
+   min-height: 70px;
+   overflow: hidden;
+}
+
+
+.title-large{
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom:90px;
+}
+.title-small{
+    font-size: 24px;
+}
+.img-detalle{
+    outline:#fff 3px solid; outline-offset: 8px;
 }

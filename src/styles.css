@@ -1,8 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.min.css";
-body{
-    font-family: "Open Sans",sans-serif!important;
-}
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
 .navbar{
     background-color: rgba(0, 0, 0, 0.123);
     height: 80px;

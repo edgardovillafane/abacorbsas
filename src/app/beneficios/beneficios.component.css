@@ -1,3 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+.bg-color{
+    background: #ffdd00;
+    font-family: 'PT Sans', sans-serif;
+    
+}
 .padding-main{
-    padding: 150px 0;
+    padding: 80px 30px 80px;
+    /* border-top: solid 20px #ffffff;
+    border-bottom: solid 20px #ffffff; */
+   
+}
+.banner{
+   min-height: 70px;
+   overflow: hidden;
+}
+
+
+
+.title-large{
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom:90px;
+}
+.title-small{
+    font-size: 24px;
+}
+.img-detalle{
+    outline:#fff 3px solid; outline-offset: 8px;
+}
+.text-banner{
+    background-color: grey;
+    min-height: 60px;
+}
+.benef-cuad{
+    width:300px;
+    height:300px;
 }

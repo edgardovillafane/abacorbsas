@@ -15,7 +15,7 @@
 
           <!-- formulario -->
           <div class="col-md-6">
-            <form action="" class="col-md-8 p-3 ml-auto bg-white formulario">
+            <form action="" class="col-md-8 p-3 ml-auto mt-3 bg-white formulario">
               <h2 class="text-white form-title text-center title-small mt-1 mb-3">Envíenos su consulta</h2>
 
               <div class="form-group">
@@ -53,10 +53,9 @@
   <!--/ container-fluid-->
 </section>
 <!--/ section home-->
-
 <section id="productos">
   <div class="container">
-    <h1 class="h1 text-center mb-5">Nuestros productos</h1>
+    <h1 class="h1 text-center mb-3">Nuestros productos</h1>
     <div class="row d-flex justify-content-center">
       <div *ngFor="let producto of productos" [class.selected]="producto === selectedProduct" (click)="onSelect(_prod)" class="col-md-2 mx-3 mb-3">
         <a class="nav-link" [routerLink]="['/detalle-productos',producto.id]" >
@@ -65,7 +64,5 @@
       </a>
       </div>
     </div>
-  
   </div>
-
 </section>

@@ -1,7 +1,7 @@
 .padding-main{
-    padding: 80px 100px 150px;
-    border-top: solid 20px #444444;
-    border-bottom: solid 20px #444444;
+    /* padding: 15% 20% 15%; */
+    border-top: solid 20px #2d3345;
+    border-bottom: solid 20px #2d3345;
 }
 .banner{
    min-height: 70px;
@@ -15,7 +15,6 @@
     font-size: 50px;
     line-height: 1.2;
     font-weight: 700;
-    margin-bottom:90px;
 }
 .title-small{
     font-size: 24px;
@@ -56,4 +55,9 @@
     form h2 {
        font-size: 2rem;
     }
+    .padding-main{
+    padding: 30px 15px!important;
+    }
+     
+     
 }

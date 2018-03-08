@@ -1,28 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 .bg-color{
-    background: linear-gradient(#395b84b5,#555658);
+    background: linear-gradient(#3874bcb5,#555658b5);
     font-family: 'PT Sans', sans-serif;
 }
 .padding-main{
-    padding: 80px 100px;
-    border-top: solid 20px #444444;
-    border-bottom: solid 20px #444444;
+    padding: 0px 100px;
+    /* border-top: solid 20px #444444;
+    border-bottom: solid 20px #444444; */
+    border-top: solid 30px #ffffff;
+    border-bottom: solid 30px #ffffff;
+   
 }
 .banner{
-   min-height: 70px;
-   overflow: hidden;
+  margin-top: 80px;
 }
 
 
 .title-large{
     font-size: 50px;
     line-height: 1.2;
-    font-weight: 700;
+    /* font-weight: 700; */
     margin-bottom:90px;
 }
 .title-small{
     font-size: 24px;
 }
 .img-detalle{
-    outline:#fff 3px solid; outline-offset: 8px;
+    outline:#2d3345 3px solid; outline-offset: 8px;
+}
+.bg-cyan{
+    background-color: #47c9e2;
+}
+.btn-custom{
+    background-color: orangered;
 }

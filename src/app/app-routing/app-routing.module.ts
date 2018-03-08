@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 
 import { HomeComponent } from '../home/home.component';
+import { ProductosComponent } from '../productos/productos.component';
 import { DetalleProductosComponent } from '../detalle-productos/detalle-productos.component';
 import { BeneficiosComponent } from '../beneficios/beneficios.component';
 import { DetalleBeneficiosComponent } from '../detalle-beneficios/detalle-beneficios.component';
@@ -12,9 +13,10 @@ import { ContactoComponent } from '../contacto/contacto.component';
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
+  { path: 'productos', component: ProductosComponent },
   { path: 'detalle-productos/:prodId', component: DetalleProductosComponent },
   { path: 'beneficios', component: BeneficiosComponent },
-  { path: 'detalle-beneficios/:benefId', component: DetalleBeneficiosComponent },
+  { path: 'detalle-beneficios', component: DetalleBeneficiosComponent },
   { path: 'como-llegar', component: ComoLlegarComponent },
   { path: 'contacto', component: ContactoComponent }
 ];

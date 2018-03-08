@@ -4,16 +4,15 @@
 }
 
 .padding-main{
-    padding: 80px 100px;
+    padding: 0px 80px;
     border-top: solid 20px #ffffff;
     border-bottom: solid 20px #ffffff;
 }
 .padding-main p{
-   font-size: 2rem;
+   font-size: 1.3rem;
 }
 .banner{
-   min-height: 70px;
-   overflow: hidden;
+   margin-top: 80px;
 }
 
 
@@ -29,3 +28,9 @@
 .img-detalle{
     outline:#fff 3px solid; outline-offset: 8px;
 }
+@media screen and (max-width:425px) {
+   .padding-main{
+    padding: 30px 15px;
+}
+}
+

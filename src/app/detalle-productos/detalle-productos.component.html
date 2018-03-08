@@ -1,27 +1,30 @@
-<div class=" bg-color">
+<div class=" bg-light">
   <div class="banner">
-    <img src="../../assets/img/banner.jpg" class="img-fluid" alt="">
+    <img src="../../assets/img/banner_7.jpg" class="img-fluid" alt="">
   </div>
   <div class="padding-main">
-    <h1 class="text-center text-white title-large">{{prodSelected.nombre}}</h1>
     <div class="row d-flex">
-      <div class="col-md-6">
+      <div class="col-md-6 mx-auto">
+        <h1 class="text-center text-dark title-large">{{prodSelected.nombre}}</h1>
         <div class="row">
-            <p class="text-white p-3 mx-auto w-100 title-small">{{prodSelected.detalle}}</p>
+          <p class="text-dark p-3 mx-auto mb-4 w-100 title-small">{{prodSelected.detalle}}</p>
           <div class="d-flex mx-auto img-detalle">
             <img src="{{prodSelected.imagenDet}}" class="img-fluid mx-auto " alt="">
           </div>
         </div>
       </div>
 
-      <div class="col-md-6 d-flex">
-        <div class="mx-auto d-flex">
-        <img src="{{prodSelected.imagen}}" class="img-fluid align-self-end " alt="">
-      </div>
+      <div class="col-md-6 d-flex flex-column">
+        <div class="bg-cyan d-flex ">
+          <img src="{{prodSelected.imagen}}" class="img-fluid align-self-start mx-auto" alt="">
+        </div>
+        <div class="bg-warning d-flex">
+          <button type="button" class="btn btn-block btn-custom rounded-0 text-white">VER FICHA TÉCNICA</button>
+        </div>
       </div>
     </div>
-    <button type="button" class="btn btn-sm btn-outline-secondary my-5 mx-auto">
-      <a class="nav-link text-white" [routerLink]="['/home']">Volver</a>
+    <button type="button" class="btn btn-sm btn-dark my-5 mx-auto">
+      <a class="nav-link text-white" routerLink="/productos">Volver a productos</a>
     </button>
   </div>
   <div class="banner">

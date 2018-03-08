@@ -5,14 +5,13 @@
     
 }
 .padding-main{
-    padding: 80px 30px 80px;
+    /* padding: 80px 30px 80px; */
     /* border-top: solid 20px #ffffff;
     border-bottom: solid 20px #ffffff; */
    
 }
 .banner{
-   min-height: 70px;
-   overflow: hidden;
+   margin-top:80px;
 }
 
 
@@ -20,8 +19,6 @@
 .title-large{
     font-size: 50px;
     line-height: 1.2;
-    font-weight: 700;
-    margin-bottom:90px;
 }
 .title-small{
     font-size: 24px;
@@ -30,10 +27,19 @@
     outline:#fff 3px solid; outline-offset: 8px;
 }
 .text-banner{
-    background-color: grey;
+    background-color: orangered;
     min-height: 60px;
 }
 .benef-cuad{
     width:300px;
     height:300px;
+}
+item{
+    height: 300px;
+}
+sup{
+    height: 60%;
+}
+inf{
+    height: 40px;
 }

@@ -13,6 +13,7 @@ import { BeneficiosComponent } from './beneficios/beneficios.component';
 import { ComoLlegarComponent } from './como-llegar/como-llegar.component';
 import { DetalleBeneficiosComponent } from './detalle-beneficios/detalle-beneficios.component';
 import { ContactoComponent } from './contacto/contacto.component';
+import { ProductosComponent } from './productos/productos.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { ContactoComponent } from './contacto/contacto.component';
     BeneficiosComponent,
     ComoLlegarComponent,
     DetalleBeneficiosComponent,
-    ContactoComponent
+    ContactoComponent,
+    ProductosComponent
   ],
   imports: [
     BsDropdownModule.forRoot(),

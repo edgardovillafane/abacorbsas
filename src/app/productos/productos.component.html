@@ -1,0 +1,37 @@
+<div class=" bg-color">
+  <div class="banner">
+    <img src="../../assets/img/banner_7.jpg" class="img-fluid" alt="">
+  </div>
+  <div class="padding-main">
+    <h1 class="text-center text-white title-large">{{prodSelected.nombre}}</h1>
+    <div class="row d-flex">
+      <section id="productos ">
+        <h1 class="h1 font-weight-bold text-center my-3 text-dark mb-3">Nuestros productos</h1>
+        <div class="container-fluid">
+          <div class="row d-flex justify-content-center">
+            <div *ngFor="let producto of productos" [class.selected]="producto === selectedProduct" (click)="onSelect(_prod)" class="col-md-2 d-flex justify-items-center bg-white mx-3 mb-3">
+              <a class="nav-link btn btn-block" [routerLink]="['/detalle-productos',producto.id]">
+                <img src="{{producto.imagen}}" class="img-fluid mx-auto" alt="">
+                <h4 class="mx-auto text-center text-dark title-name font-weight-bold mt-3">{{producto.nombre}}</h4>
+               
+                  <button class=" btn btn-sm mt-4 mx-auto">Ver producto</button>
+                
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <div class="col-md-6 d-flex">
+        <div class="mx-auto d-flex">
+          <img src="{{prodSelected.imagen}}" class="img-fluid align-self-end " alt="">
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div>
+    <img src="../../assets/img/banner.jpg" class="img-fluid" alt="">
+  </div>
+</div>

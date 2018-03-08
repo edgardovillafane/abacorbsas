@@ -11,7 +11,7 @@ section{
     
 }
 .padding-main{
-    padding: 150px 0;
+    padding: 80px 0 50px;
 }
 .filter {
     -webkit-backdrop-filter: blur(10px); /* Safari 9+ */
@@ -43,7 +43,6 @@ section{
 }
 
 .formulario .form-title{
-   
     color:#2d3345!important;
    }
 
@@ -53,7 +52,7 @@ section{
 }
 
 #productos{
-    padding: 100px 0;
+    padding: 20px 0;
     background-color: #f9f9f9;
    
 }

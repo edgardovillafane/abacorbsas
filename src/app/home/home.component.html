@@ -1,11 +1,11 @@
-<section class="main padding-main">
+<section class="main py-4 px-3">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-10 mx-auto">
+      <div class="col-lg-10 mx-auto">
         <div class="row">
           <div class="col-md-6 text-white">
             <div class="content typo-light">
-              <h1 class="title-large mb-3 mt-5" data-rgen-sm="medium">Build your dream home with trusted service</h1>
+              <h1 class="title-large mb-3" data-rgen-sm="medium">Build your dream home with trusted service</h1>
               <p class="title-mini">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt</p>
               <hr class="hr my-3">
               <p class="italic bold-3 fs30 lh-3" data-rgen-sm="fs20">Construction projects
@@ -15,7 +15,7 @@
 
           <!-- formulario -->
           <div class="col-md-6">
-            <form action="" class="col-md-8 p-3 ml-auto mt-3 bg-white formulario">
+            <form action="" class="p-3 ml-auto mt-3 bg-white formulario">
               <h2 class="text-white form-title text-center title-small mt-1 mb-3">Envíenos su consulta</h2>
 
               <div class="form-group">
@@ -57,7 +57,7 @@
   <div class="container">
     <h1 class="h1 text-center mb-3">Nuestros productos</h1>
     <div class="row d-flex justify-content-center">
-      <div *ngFor="let producto of productos" [class.selected]="producto === selectedProduct" (click)="onSelect(_prod)" class="col-md-2 mx-3 mb-3">
+      <div *ngFor="let producto of productos" [class.selected]="producto === selectedProduct" (click)="onSelect(_prod)" class="col-sm-4 col-lg-2  mx-3 mb-3">
         <a class="nav-link" [routerLink]="['/detalle-productos',producto.id]" >
           <img src="{{producto.imagen}}" class="img-fluid d-flex mx-auto" alt="">
         <h3 class="text-center mt-3">{{producto.nombre}}</h3>

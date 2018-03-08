@@ -1,6 +1,7 @@
 
 section{
     font-family: 'PT Sans', sans-serif;
+    font-family: 'Oxygen', sans-serif;
  }
 
 .main{
@@ -10,9 +11,7 @@ section{
     background-position: center center;
     
 }
-.padding-main{
-    padding: 80px 0 50px;
-}
+
 .filter {
     -webkit-backdrop-filter: blur(10px); /* Safari 9+ */
     backdrop-filter: blur(10px); /* Chrome and Opera */

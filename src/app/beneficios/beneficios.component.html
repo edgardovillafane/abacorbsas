@@ -1,27 +1,29 @@
-<div class=" bg-light">
-  <div class="banner">
-    <img src="../../assets/img/banner_3.jpg" class="img-fluid" alt="">
-  </div>
-  <div class="padding-main mb-4 px-4">
-    <h1 class="text-center text-dark title-large my-4">Nuestros Beneficios</h1>
-    <div class="row d-flex justify-content-center mb-5">
-        <div class="col-md-3 d-flex flex-column " *ngFor="let beneficio of beneficios" [class.selected]="beneficio === selectedFenefic" (click)="onSelect(_benef)">
-            <div class=" d-flex ">
-              <img src="{{beneficio.imagen}}" class="img-fluid align-self-start mx-auto" alt="">
-            </div>
-            <div class="d-flex mt-4">
-              <button type="button" class="btn btn-dark btn-block btn-custom rounded-0 text-white ">{{beneficio.nombre | uppercase}}</button>
-            </div>
-          </div>
+<div class="row p-0 mx-0">
+  <div class="mb-4 px-5">
+    <div class="w-100 banda-sup">
+      <h1 class="text-center text-dark title-large my-4">Nuestros Beneficios</h1>
+      <h5 class="text-dark my-4"><em> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</em></h5>
+      <p class="w-50">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia reprehenderit cum nostrum labore ad ipsum facere
+        maiores unde. Voluptatibus ab deserunt inventore blanditiis placeat pariatur facere vel deleniti consectetur dicta.</p>
+    </div>
+
+    <div class="row p-0 mx-0 d-flex justify-content-center mb-5 beneficios">
+      <div class="col-md-3 d-flex flex-column" *ngFor="let beneficio of beneficios" [class.selected]="beneficio === selectedFenefic"
+        (click)="onSelect(_benef)">
+        <div class=" d-flex ">
+          <img src="{{beneficio.imagen}}" class="img-fluid align-self-start mx-auto" alt="">
+        </div>
+        <div class="d-flex h-25">
+          <button type="button" class="btn btn-warning btn-block btn-custom rounded-0 text-white ">{{beneficio.nombre | uppercase}}</button>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="text-banner mt-4 d-flex justify-content-center">
+
+  <div class="w-100 mt-4 d-flex bg-cartel justify-content-center">
     <a routerLink="/detalle-beneficios" class="d-flex align-self-center">
       <h1 class="text-white m-0">SEA DISTRIBUIDOR</h1>
-  </a>
+    </a>
   </div>
-  <div>
-    <img src="../../assets/img/banner_4.jpg" class="img-fluid" alt="">
-  </div>
-
 </div>
+  

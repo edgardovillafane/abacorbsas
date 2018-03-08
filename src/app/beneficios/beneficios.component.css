@@ -2,20 +2,11 @@
 .bg-color{
     background: #ffdd00;
     font-family: 'PT Sans', sans-serif;
-    
 }
-.padding-main{
-    /* padding: 80px 30px 80px; */
-    /* border-top: solid 20px #ffffff;
-    border-bottom: solid 20px #ffffff; */
-   
+.banda-sup{
+   min-height:300!important;
+   /* margin-top: 80px; */
 }
-.banner{
-   margin-top:80px;
-}
-
-
-
 .title-large{
     font-size: 50px;
     line-height: 1.2;
@@ -26,20 +17,23 @@
 .img-detalle{
     outline:#fff 3px solid; outline-offset: 8px;
 }
-.text-banner{
-    background-color: orangered;
-    min-height: 60px;
-}
+
 .benef-cuad{
     width:300px;
     height:300px;
 }
-item{
-    height: 300px;
+.beneficios button{
+    font-size: 1.2rem!important;
 }
-sup{
-    height: 60%;
+.bg-cartel{
+    background-color: #565458; 
+    min-height: 60px;
 }
-inf{
-    height: 40px;
-}
+
+
+@media screen and (max-width:768px) {
+    .beneficios button{
+        font-size: .9rem!important;
+    }
+
+ }

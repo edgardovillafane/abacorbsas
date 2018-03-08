@@ -2,19 +2,14 @@
     background: linear-gradient(#abababb0,#1926c3e0);
     font-family: 'PT Sans', sans-serif;
 }
-
 .padding-main{
     padding: 0px 80px;
     border-top: solid 20px #ffffff;
     border-bottom: solid 20px #ffffff;
 }
-.padding-main p{
-   font-size: 1.3rem;
+.texto-info p{
+   font-size: 1.5rem;
 }
-.banner{
-   margin-top: 80px;
-}
-
 
 .title-large{
     font-size: 50px;

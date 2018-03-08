@@ -1,11 +1,7 @@
-.padding-main{
-    /* padding: 15% 20% 15%; */
-    border-top: solid 20px #2d3345;
-    border-bottom: solid 20px #2d3345;
-}
-.banner{
-   min-height: 70px;
-   overflow: hidden;
+
+hr{
+    border: solid 15px #0aabbd;
+    margin: 0!important;
 }
 
 .bg-color{

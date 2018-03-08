@@ -3,17 +3,12 @@
     background: #f3f3f3;
     font-family: 'PT Sans', sans-serif;
 }
-.padding-main{
-    padding: 0px 0 ;
-    /* border-top: solid 20px #444444;
-    border-bottom: solid 20px #444444; */
-    border-top: solid 30px #099;
-    border-bottom: solid 30px #099;
-   
+hr{
+    border: solid 20px #0aabbd;
+    margin: 0!important;
+
 }
-.banner{
-   margin-top: 80px;
-}
+
 .title-large{
     font-size: 50px;
     line-height: 1.2;
@@ -30,9 +25,13 @@
 .img-detalle{
     outline:#fff 3px solid; outline-offset: 8px;
 }
+
 @media screen and (max-width:425px) {
     .padding-main{
      padding: 30px 15px;
  }
+
  }
+
+
  

@@ -3,6 +3,13 @@
     background: #f3f3f3;
     font-family: 'PT Sans', sans-serif;
 }
+.img-fondo{
+    min-height: 100px;
+    background-image: url("../../assets/img/productos.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
 hr{
     border: solid 20px #0aabbd;
     margin: 0!important;
@@ -15,23 +22,39 @@ hr{
     font-weight: 700;
     
 }
-.title-name{
-    font-size: 1rem!important;
-    
-}
+
 .title-small{
     font-size: 24px;
 }
 .img-detalle{
     outline:#fff 3px solid; outline-offset: 8px;
 }
-
+.btn-color{
+    background-color: #659b01;
+}
 @media screen and (max-width:425px) {
     .padding-main{
      padding: 30px 15px;
  }
 
  }
+
+ @media screen and (max-width:768px) {
+    .title-name{
+        font-size: .7rem!important;
+        overflow-wrap: break-word;
+     }
+    .btn{
+        font-size: .4rem!important;
+        word-wrap: break-word!important;
+     }
+}
+ 
+
+ 
+
+   
+
 
 
  

@@ -14,10 +14,10 @@ export class DetalleBeneficiosComponent implements OnInit {
 
   constructor(private ruta:ActivatedRoute) {
     this.detail_benef = [
-      {id:1 ,nombre: 'Arquitectos',detalle:'Adhesivo impermeable multiuso ideal para Cerámica convencional piezas pre-moldeadas de hormigón hormigón celular baldosas adoquines cementicios ',imagen:"/assets/img/impermeable.png",imagenDet:"/assets/img/det-prod/impermeable.jpg" },
-      {id:2 ,nombre: 'Ccomercios',detalle:'Mezcla adhesiva premium ideal para:granito natural, compactos, porcelanato y cerámica convencional.',imagen:"/assets/img/premium.png",imagenDet:"/assets/img/det-prod/premium.jpg"},
-      {id:3 ,nombre: 'Instaladores',detalle:'Membrana cementicia flexible ideal para: Hormigón, mamposterías, lozas de concreto, terrazas, estacionamientos  y sótanos.',imagen:"/assets/img/membranacement.png",imagenDet:"/assets/img/det-prod/cementicia.jpg"},
-      {id:4 ,nombre: 'Distribuidores',detalle:'Material bi-funcional de secado rápido  para ser utilizado en obra con solo  agregar agua, puede ser utilizado como pasta de agarre o masilla para tratamiento de juntas. Masilla para placas de yeso tipo Durloc Masilla para pared y placas tipo Knauf',imagen:"/assets/img/multifunc.png"}
+      {id:1 ,nombre: 'Arquitectos',data:'Inscripción, capacitaciones, preguntas frecuentes',imagen:"/assets/img/arquitectos.png"},
+      {id:2 ,nombre: 'Comercios',data:'Solicitud de lista de precios,folletería, capacitaciones, preguntas frecuentes.',imagen:"/assets/img/comercios.png"},
+      {id:3 ,nombre: 'Instaladores',data:'Inscribite en nuestro programa de beneficios,capacitaciones,preguntas frecuentes',imagen:"/assets/img/instaladores.png"},
+      {id:4 ,nombre: 'Distribuidores',data:'Solicitud de lista de precios,folletería, capacitaciones, preguntas frecuentes.',imagen:"/assets/img/distribuidores.png"}
     ]
    }
  
@@ -39,3 +39,4 @@ export class DetalleBeneficiosComponent implements OnInit {
   
 
 }
+

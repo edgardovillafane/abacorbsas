@@ -14,6 +14,7 @@ import { ComoLlegarComponent } from './como-llegar/como-llegar.component';
 import { DetalleBeneficiosComponent } from './detalle-beneficios/detalle-beneficios.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { ProductosComponent } from './productos/productos.component';
+import { HagDistComponent } from './hag-dist/hag-dist.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { ProductosComponent } from './productos/productos.component';
     ComoLlegarComponent,
     DetalleBeneficiosComponent,
     ContactoComponent,
-    ProductosComponent
+    ProductosComponent,
+    HagDistComponent
   ],
   imports: [
     BsDropdownModule.forRoot(),

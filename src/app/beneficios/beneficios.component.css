@@ -29,7 +29,9 @@
     background-color: #565458; 
     min-height: 60px;
 }
-
+.btn-color{
+    background-color: #659b01;
+}
 
 @media screen and (max-width:768px) {
     .beneficios button{

@@ -9,6 +9,7 @@ import { BeneficiosComponent } from '../beneficios/beneficios.component';
 import { DetalleBeneficiosComponent } from '../detalle-beneficios/detalle-beneficios.component';
 import { ComoLlegarComponent } from '../como-llegar/como-llegar.component';
 import { ContactoComponent } from '../contacto/contacto.component';
+import { HagDistComponent } from '../hag-dist/hag-dist.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -16,9 +17,10 @@ const routes: Routes = [
   { path: 'productos', component: ProductosComponent },
   { path: 'detalle-productos/:prodId', component: DetalleProductosComponent },
   { path: 'beneficios', component: BeneficiosComponent },
-  { path: 'detalle-beneficios', component: DetalleBeneficiosComponent },
+  { path: 'detalle-beneficios/:benefId', component: DetalleBeneficiosComponent },
   { path: 'como-llegar', component: ComoLlegarComponent },
-  { path: 'contacto', component: ContactoComponent }
+  { path: 'contacto', component: ContactoComponent },
+  { path: 'hag-dist', component: HagDistComponent }
 ];
 
 @NgModule({

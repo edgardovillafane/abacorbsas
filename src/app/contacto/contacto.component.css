@@ -25,7 +25,7 @@ hr{
 
 .formulario button{
    
- background-color:#2d3345!important;
+ background-color:#659b01!important;
 }
 
 #productos{
@@ -44,8 +44,8 @@ hr{
    font-size: 1.4rem!important;
    font-weight: bold;
 }
-.hr{
-    border-color: rgba(255,255,255,0.15)
+.consulta-leyenda{
+    font-size: 1.2rem;
 }
 @media screen and (max-width:425px) {
     form h2 {

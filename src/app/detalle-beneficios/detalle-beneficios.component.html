@@ -1,79 +1,30 @@
-<div class="bg-light padding-main">
-  <div>
-    <img src="../../assets/img/banner_8.jpg" class="img-fluid" alt="">
-  </div>
-  <div class="row d-flex">
-    <div class="col-md-6 mx-auto">
-      <h1 class="text-center my-4 text-dark title-large">Hágase distribuidor</h1>
-      <div class="row">
-        <form>
-          <div class="form-row">
-            <div class="form-group col-md-6">
-              <label for="inputEmail4">Email</label>
-              <input type="email" class="form-control" id="email">
-            </div>
-            <div class="form-group col-md-6">
-              <label for="inputPassword4">País</label>
-              <input type="text" class="form-control" id="pais">
-            </div>
-            <div class="form-group col-md-6">
-              <label for="nombre">Nombre</label>
-              <input type="text" class="form-control" id="nombre">
-            </div>
-            <div class="form-group col-md-6">
-              <label for="inputPassword4">Teléfono</label>
-              <input type="text" class="form-control" id="telefono">
-            </div>
-            <div class="form-group col-md-6">
-              <label for="Apellido">Apellido</label>
-              <input type="text" class="form-control" id="apellido">
-            </div>
-            <div class="form-group col-md-6">
-              <label for="profesion">Profesión</label>
-              <input type="text" class="form-control" id="profesion">
-            </div>
-            <div class="form-group col-md-6">
-              <label for="direccion">Dirección</label>
-              <input type="text" class="form-control" id="direccion">
-            </div>
-            <div class="form-group col-md-6">
-              <label for="fechNac">Fecha de nacimiento</label>
-              <input type="text" class="form-control" id="fechNac">
-            </div>
-            <div class="form-group col-md-6">
-              <label for="codPost">Código postal</label>
-              <input type="text" class="form-control" id="codPost">
-            </div>
-            <div class="form-group col-md-6">
-              <label for="codPost">Ditribuidor habitual</label>
-              <input type="text" class="form-control" id="codPost">
-            </div>
-            <div class="form-group col-md-6">
-              <label for="ciudad">Ciudad</label>
-              <input type="text" class="form-control" id="ciudad">
-            </div>
-            <div class="form-group col-md-6">
-              <label for="cuando">Cuando comenzaste a ser instalador?</label>
-              <input type="text" class="form-control" id="cuando">
-            </div>
-            <div class="form-group col-md-6">
-              <label for="prov">Provincia</label>
-              <input type="text" class="form-control" id="prov">
-            </div>
-            <div class="form-group col-md-6 d-flex">
-                <button type="submit" class="btn btn-warning align-self-end mx-auto">SUSCRIBITE</button>
-              </div>
+<div class="row p-0 mx-0">
+    <div class="mb-4 px-5">
+      <div class="w-100 banda-sup">
+        <h1 class="text-center text-dark title-large my-4">Nuestros Beneficios</h1>
+        <h5 class="text-dark my-4"><em> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</em></h5>
+        <p class="w-50">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia reprehenderit cum nostrum labore ad ipsum facere
+          maiores unde. Voluptatibus ab deserunt inventore blanditiis placeat pariatur facere vel deleniti consectetur dicta.</p>
+      </div>
+  
+      <div class="row p-0 mx-0 d-flex justify-content-center mb-5 beneficios">
+        <div class="col-md-3 d-flex flex-column">
+          <div class=" d-flex ">
+            <img src="{{detail_benef.imagen}}" class="img-fluid align-self-start mx-auto" alt="">
           </div>
-         
-         
-         
-       
-          
-        </form>
-
+          <div class="d-flex h-25">
+            <a [class.selected]="beneficio === benefSelected"
+            (click)="onSelect(_benef)">
+            <button type="button" class="btn btn-color text-white btn-block btn-custom rounded-0 text-white ">{{beneficio.nombre | uppercase}}</button>
+          </a>
+          </div>
+        </div>
       </div>
     </div>
+  
+    <div class="w-100 mt-4 d-flex bg-cartel justify-content-center">
+      <a routerLink="/detalle-beneficios" class="d-flex align-self-center">
+        <h1 class="text-white m-0">SEA DISTRIBUIDOR</h1>
+      </a>
+    </div>
   </div>
-
-
-</div>

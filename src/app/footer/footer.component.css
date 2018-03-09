@@ -1,12 +1,12 @@
 
 footer{
     /* background-color:#2d3345; */
-    background-color:#ffde00;
+    background-color:#659b01;
     padding:30px;
-    font-family: "Open Sans",sans-serif;
+    font-family: 'Oxygen', sans-serif;
 }
 .nav-link{
-    color:#343a40!important;
+    color:#ffffff!important;
 }
 footer img{
     width: 30%!important;

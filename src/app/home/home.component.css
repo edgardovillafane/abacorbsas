@@ -1,6 +1,6 @@
 
 section{
-    font-family: 'PT Sans', sans-serif;
+   
     font-family: 'Oxygen', sans-serif;
  }
 
@@ -62,15 +62,22 @@ section{
     font-size: 3.5rem!important;
     font-weight: 700;
 }
-#productos h3{
-   font-size: 1.4rem!important;
-   font-weight: bold;
-}
-.hr{
-    border-color: rgba(255,255,255,0.15)
+.btn-color{
+    background-color: #659b01;
 }
 @media screen and (max-width:425px) {
     form h2 {
        font-size: 2rem;
     }
 }
+@media screen and (max-width:768px) {
+    .title-name{
+        font-size: .7rem!important;
+        overflow-wrap: break-word;
+     }
+    .btn{
+        font-size: .4rem!important;
+        word-wrap: break-word!important;
+     }
+}
+

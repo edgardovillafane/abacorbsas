@@ -26,12 +26,10 @@ hr{
     background-color: #47c9e2;
 }
 .btn-custom{
-    background-color: #ffde00;
+    background-color: #659b01;
     transition:all .2s ease-in;
 }
-.btn-custom:hover{
-    background-color: rgb(255, 222, 0);
-}
+
 .icon-list ul li {
     width: 105px;
     min-height: 105px;

@@ -15,7 +15,7 @@ import { DetalleBeneficiosComponent } from './detalle-beneficios/detalle-benefic
 import { ContactoComponent } from './contacto/contacto.component';
 import { ProductosComponent } from './productos/productos.component';
 import { HagDistComponent } from './hag-dist/hag-dist.component';
-
+import { BeneficioService } from './beneficio.service';
 
 @NgModule({
   declarations: [
@@ -37,7 +37,7 @@ import { HagDistComponent } from './hag-dist/hag-dist.component';
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+  providers: [ BeneficioService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

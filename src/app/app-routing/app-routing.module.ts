@@ -20,7 +20,8 @@ const routes: Routes = [
   { path: 'detalle-beneficios/:benefId', component: DetalleBeneficiosComponent },
   { path: 'como-llegar', component: ComoLlegarComponent },
   { path: 'contacto', component: ContactoComponent },
-  { path: 'hag-dist', component: HagDistComponent }
+  { path: 'hag-dist', component: HagDistComponent },
+  { path: 'beneficio/:id', component: BeneficiosComponent }
 ];
 
 @NgModule({

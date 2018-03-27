@@ -51,13 +51,21 @@
     <h1 class="h1 font-weight-bold text-center text-dark mb-3">Nuestros productos</h1>
     <div class="container-fluid">
       <div class="row p-0 d-flex justify-content-center">
-        <div id="producto" *ngFor="let producto of productos" [class.selected]="producto === selectedProduct" (click)="onSelect(_prod)" class="col-md-2 d-flex justify-items-center bg-white mx-3 mb-3 px-4">
+        <!-- <div id="producto" *ngFor="let producto of productos" [class.selected]="producto === selectedProduct" (click)="onSelect(_prod)" class="col-md-2 d-flex justify-items-center bg-white mx-3 mb-3 px-4">
           <a class="btn btn-block" [routerLink]="['/detalle-productos',producto.id]">
             <img src="{{producto.imagen}}" class="img-fluid mx-auto" alt="">
             <p class="mx-auto text-center text-dark title-name mt-3">{{producto.nombre}}</p>
               <button class="btn btn-color btn-block rounded-0 text-white mt-4 mx-auto butt-prod px-md-2">Ver producto</button>
           </a>
-        </div>
+        </div> -->
+        <div class="card" style="width: 18rem;" *ngFor="let producto of productos" [class.selected]="producto === selectedProduct" (click)="onSelect(_prod)">
+            <img class="card-img-top" src="{{producto.imagen}}" class="img-fluid mx-auto" alt="" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">{{producto.nombre}}</p>
+              <span class="d-flex"><a href="#" class="btn btn-color rounded-0 text-white btn-block mx-auto">Ver producto</a></span> 
+            </div>
+          </div>
       </div>
     </div>
   </section>
